@@ -15,6 +15,7 @@
 		CBBBFB7A1F8D338300AC5F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBBFB781F8D338300AC5F48 /* LaunchScreen.storyboard */; };
 		CBBBFB851F8D338300AC5F48 /* AnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFB841F8D338300AC5F48 /* AnkiTests.swift */; };
 		CBBBFB901F8D338300AC5F48 /* AnkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFB8F1F8D338300AC5F48 /* AnkiUITests.swift */; };
+		CBBBFB9E1F8D34A900AC5F48 /* DeckImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFB9D1F8D34A900AC5F48 /* DeckImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CBBBFB8B1F8D338300AC5F48 /* AnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBBFB8F1F8D338300AC5F48 /* AnkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiUITests.swift; sourceTree = "<group>"; };
 		CBBBFB911F8D338300AC5F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBBFB9D1F8D34A900AC5F48 /* DeckImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				CBBBFB6C1F8D338300AC5F48 /* AppDelegate.swift */,
 				CBBBFB6E1F8D338300AC5F48 /* ViewController.swift */,
+				CBBBFB9D1F8D34A900AC5F48 /* DeckImporter.swift */,
 				CBBBFB701F8D338300AC5F48 /* Main.storyboard */,
 				CBBBFB761F8D338300AC5F48 /* Assets.xcassets */,
 				CBBBFB781F8D338300AC5F48 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				CBBBFB751F8D338300AC5F48 /* Anki.xcdatamodeld in Sources */,
 				CBBBFB6F1F8D338300AC5F48 /* ViewController.swift in Sources */,
+				CBBBFB9E1F8D34A900AC5F48 /* DeckImporter.swift in Sources */,
 				CBBBFB6D1F8D338300AC5F48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
