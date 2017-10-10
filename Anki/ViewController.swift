@@ -7,16 +7,21 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController, UIDocumentPickerDelegate {
 
-    let deckImporter = DeckImporter()
+    let context = AppDelegate().persistentContainer.viewContext
     
+    var deckImporter: DeckImporter!
     @IBAction func importAction(_ sender: Any) {
         let documentPicker = UIDocumentPickerViewController(documentTypes: ["apkg"], in: .import)
         documentPicker.delegate = self
+        present(documentPicker, animated: true, completion: nil)
     }
     override func viewDidLoad() {
+        deckImporter = DeckImporter(context: self.context)
+
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

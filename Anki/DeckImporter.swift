@@ -8,14 +8,16 @@
 
 import Foundation
 import UIKit
+import CoreData
 
-class DeckImporter: UIDocumentPickerViewControllerDelegate {
-    public init() {
-
+class DeckImporter {
+    
+    public init(context: NSManagedObjectContext) {
+        self.context = context
     }
 
     public var url: URL?
-    
+    private var context: NSManagedObjectContext
     func `import`() {
         
     }
